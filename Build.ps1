@@ -26,6 +26,6 @@ $artifacts = ".\artifacts"
 
 if(Test-Path $artifacts) { Remove-Item $artifacts -Force -Recurse }
 
-exec { & dotnet test -c Release --results-directory $artifacts -l trx }
+exec { & dotnet test -c Release --results-directory $artifacts -l trx /bl:$artifacts\FastMapper.binlog }
 
 exec { & dotnet pack .\src\AutoMapper\AutoMapper.csproj -c Release -o $artifacts --no-build }
