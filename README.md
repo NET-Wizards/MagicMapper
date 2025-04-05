@@ -1,16 +1,18 @@
-![AutoMapper](https://s3.amazonaws.com/automapper/logo.png)
+![FastMapper](https://s3.amazonaws.com/automapper/logo.png)
 
-[![CI](https://github.com/automapper/automapper/workflows/CI/badge.svg)](https://github.com/AutoMapper/AutoMapper/actions?query=workflow%3ACI)
-[![NuGet](http://img.shields.io/nuget/vpre/AutoMapper.svg?label=NuGet)](https://www.nuget.org/packages/AutoMapper/)
-[![MyGet (dev)](https://img.shields.io/myget/automapperdev/vpre/AutoMapper.svg?label=MyGet)](https://myget.org/feed/automapperdev/package/nuget/AutoMapper)
+[![CI](https://github.com/kant2002/fasmapper/workflows/CI/badge.svg)](https://github.com/kant2002/FastMapper/actions?query=workflow%3ACI)
+[![NuGet](http://img.shields.io/nuget/vpre/FastMapper.svg?label=NuGet)](https://www.nuget.org/packages/FastMapper/)
+[![MyGet (dev)](https://img.shields.io/myget/fastmapperdev/vpre/AutoMapper.svg?label=MyGet)](https://myget.org/feed/automapperdev/package/nuget/FastMapper)
 [![Documentation Status](https://readthedocs.org/projects/automapper/badge/?version=stable)](https://docs.automapper.org/en/stable/?badge=stable)
 
 
-### What is AutoMapper?
+### What is FastMapper?
 
-AutoMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another. This type of code is rather dreary and boring to write, so why not invent a tool to do it for us?
+FastMapper is binary compatible fork with v14.0
 
-This is the main repository for AutoMapper, but there's more:
+FastMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another. This type of code is rather dreary and boring to write, so why not invent a tool to do it for us?
+
+This is the fork of main repository for AutoMapper, but there's more, which I do not fork. Please let me know in the issues if you want that:
 
 * [Collection Extensions](https://github.com/AutoMapper/AutoMapper.Collection)
 * [Expression Mapping](https://github.com/AutoMapper/AutoMapper.Extensions.ExpressionMapping)
@@ -20,7 +22,7 @@ This is the main repository for AutoMapper, but there's more:
 
 ### How do I get started?
 
-First, configure AutoMapper to know what types you want to map, in the startup of your application:
+First, configure FastMapper to know what types you want to map, in the startup of your application:
 
 ```csharp
 var configuration = new MapperConfiguration(cfg => 
@@ -42,18 +44,18 @@ var fooDto = mapper.Map<FooDto>(foo);
 var barDto = mapper.Map<BarDto>(bar);
 ```
 
-Check out the [getting started guide](https://automapper.readthedocs.io/en/latest/Getting-started.html). When you're done there, the [wiki](https://automapper.readthedocs.io/en/latest/) goes in to the nitty-gritty details. If you have questions, you can post them to [Stack Overflow](https://stackoverflow.com/questions/tagged/automapper) or in our [Gitter](https://gitter.im/AutoMapper/AutoMapper).
+Check out the [getting started guide](https://automapper.readthedocs.io/en/latest/Getting-started.html). When you're done there, the [wiki](https://automapper.readthedocs.io/en/latest/) goes in to the nitty-gritty details. If you have questions, you can post them to [Stack Overflow](https://stackoverflow.com/questions/tagged/automapper) 
 
 ### Where can I get it?
 
-First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [AutoMapper](https://www.nuget.org/packages/AutoMapper/) from the package manager console:
+First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [AutoMapper](https://www.nuget.org/packages/FastMapper/) from the package manager console:
 
 ```
-PM> Install-Package AutoMapper
+PM> Install-Package FastMapper
 ```
 Or from the .NET CLI as:
 ```
-dotnet add package AutoMapper
+dotnet add package FastMapper
 ```
 
 ### Do you have an issue?
@@ -71,6 +73,6 @@ For more information see the [.NET Foundation Code of Conduct](https://dotnetfou
 
 AutoMapper is Copyright &copy; 2009 [Jimmy Bogard](https://jimmybogard.com) and other contributors under the [MIT license](https://github.com/AutoMapper/AutoMapper?tab=MIT-1-ov-file#MIT-1-ov-file).
 
-### .NET Foundation
+<!-- ### .NET Foundation
 
-This project is supported by the [.NET Foundation](https://dotnetfoundation.org).
+This project is supported by the [.NET Foundation](https://dotnetfoundation.org). -->
