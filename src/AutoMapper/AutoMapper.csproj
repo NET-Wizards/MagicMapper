@@ -9,7 +9,7 @@
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>FastMapper</PackageId>
+    <PackageId>MagicMapper</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://automapper.org</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
