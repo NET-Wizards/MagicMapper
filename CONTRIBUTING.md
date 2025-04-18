@@ -6,7 +6,7 @@ Then we can decide if and how a feature or a change could be implemented and if 
 Also read this first: [Being a good open source citizen](https://hackernoon.com/being-a-good-open-source-citizen-9060d0ab9732#.x3hocgw85)
 
 ## General feedback and discussions
-Please start a discussion on the [core repo issue tracker](https://github.com/kant2002/FastMapper/issues).
+Please start a discussion on the [core repo issue tracker](https://github.com/kant2002/MagicMapper/issues).
 
 ## Platform
 AutoMapper is built using the RTM tooling that ships with the latest Visual Studio. This is the only configuration accepted.
@@ -18,7 +18,7 @@ Run the PowerShell script `Build.ps1` from the command line. This builds and run
 ## Bugs and feature requests?
 Please log a new issue in the appropriate GitHub repo:
 
-* [Core](https://github.com/kant2002/FastMapper)
+* [Core](https://github.com/kant2002/MagicMapper)
 * Other projects not forked, let me know in issues.
 <!-- * [EF6 Extensions](https://github.com/AutoMapper/AutoMapper.EF6)
 * [IDataReader/Record Extensions](https://github.com/AutoMapper/AutoMapper.Data)

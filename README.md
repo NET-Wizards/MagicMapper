@@ -1,16 +1,16 @@
-![FastMapper](https://s3.amazonaws.com/automapper/logo.png)
+![MagicMapper](https://s3.amazonaws.com/automapper/logo.png)
 
-[![CI](https://github.com/kant2002/fasmapper/workflows/CI/badge.svg)](https://github.com/kant2002/FastMapper/actions?query=workflow%3ACI)
-[![NuGet](http://img.shields.io/nuget/vpre/FastMapper.svg?label=NuGet)](https://www.nuget.org/packages/FastMapper/)
-[![MyGet (dev)](https://img.shields.io/myget/fastmapperdev/vpre/AutoMapper.svg?label=MyGet)](https://myget.org/feed/automapperdev/package/nuget/FastMapper)
+[![CI](https://github.com/kant2002/fasmapper/workflows/CI/badge.svg)](https://github.com/kant2002/MagicMapper/actions?query=workflow%3ACI)
+[![NuGet](http://img.shields.io/nuget/vpre/MagicMapper.svg?label=NuGet)](https://www.nuget.org/packages/MagicMapper/)
+[![MyGet (dev)](https://img.shields.io/myget/fastmapperdev/vpre/AutoMapper.svg?label=MyGet)](https://myget.org/feed/automapperdev/package/nuget/MagicMapper)
 [![Documentation Status](https://readthedocs.org/projects/automapper/badge/?version=stable)](https://docs.automapper.org/en/stable/?badge=stable)
 
 
-### What is FastMapper?
+### What is MagicMapper?
 
-FastMapper is binary compatible fork with v14.0
+MagicMapper is binary compatible fork with v14.0
 
-FastMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another. This type of code is rather dreary and boring to write, so why not invent a tool to do it for us?
+MagicMapper is a simple little library built to solve a deceptively complex problem - getting rid of code that mapped one object to another. This type of code is rather dreary and boring to write, so why not invent a tool to do it for us?
 
 This is the fork of main repository for AutoMapper, but there's more, which I do not fork. Please let me know in the issues if you want that:
 
@@ -22,7 +22,7 @@ This is the fork of main repository for AutoMapper, but there's more, which I do
 
 ### How do I get started?
 
-First, configure FastMapper to know what types you want to map, in the startup of your application:
+First, configure MagicMapper to know what types you want to map, in the startup of your application:
 
 ```csharp
 var configuration = new MapperConfiguration(cfg => 
@@ -48,14 +48,14 @@ Check out the [getting started guide](https://automapper.readthedocs.io/en/lates
 
 ### Where can I get it?
 
-First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [AutoMapper](https://www.nuget.org/packages/FastMapper/) from the package manager console:
+First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget). Then, install [AutoMapper](https://www.nuget.org/packages/MagicMapper/) from the package manager console:
 
 ```
-PM> Install-Package FastMapper
+PM> Install-Package MagicMapper
 ```
 Or from the .NET CLI as:
 ```
-dotnet add package FastMapper
+dotnet add package MagicMapper
 ```
 
 ### Do you have an issue?
